@@ -28,7 +28,7 @@ A aplicação permite cadastrar, visualizar, editar e excluir produtos de forma 
 📷 Demonstração
 
 <img width="1768" height="855" alt="image" src="https://github.com/user-attachments/assets/68832fae-d711-41b2-ba00-ffe2e015d5ef" />
-<img width="1671" height="835" alt="image" src="https://github.com/user-attachments/assets/adc82342-366b-4166-ad2d-a068e9a9a580" />
+<img width="1360" height="806" alt="image" src="https://github.com/user-attachments/assets/00d6f09a-aae6-461a-a30f-acad688e88c0" />
 <img width="1565" height="827" alt="image" src="https://github.com/user-attachments/assets/28824912-7175-41e2-9bbd-e75e9cbcfee1" />
 
 
