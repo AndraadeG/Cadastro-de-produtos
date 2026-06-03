@@ -1,0 +1,41 @@
+🛒 Sistema de Cadastro de Produtos
+
+Aplicação web desenvolvida para cadastro e gerenciamento de produtos, utilizando operações CRUD (Create, Read, Update e Delete) integradas ao banco de dados.
+
+📌 Sobre o Projeto
+
+Este projeto foi criado com o objetivo de praticar desenvolvimento backend, manipulação de banco de dados e integração entre interface web e sistema de gerenciamento de dados.
+
+A aplicação permite cadastrar, visualizar, editar e excluir produtos de forma simples e organizada.
+
+⚙️ Funcionalidades
+
+*  Cadastro de produtos
+*  Listagem de produtos
+*  Edição de produtos
+*  Exclusão de produtos
+*  Integração com banco de dados
+*  Interface simples e funcional
+
+🛠 Tecnologias Utilizadas
+
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* Bootstrap
+
+📷 Demonstração
+
+<img width="1768" height="855" alt="image" src="https://github.com/user-attachments/assets/68832fae-d711-41b2-ba00-ffe2e015d5ef" />
+<img width="1671" height="835" alt="image" src="https://github.com/user-attachments/assets/adc82342-366b-4166-ad2d-a068e9a9a580" />
+<img width="1565" height="827" alt="image" src="https://github.com/user-attachments/assets/28824912-7175-41e2-9bbd-e75e9cbcfee1" />
+
+
+Objetivo do projeto
+
+Projeto desenvolvido para fins de estudo e prática de CRUD, banco de dados e desenvolvimento web.
+
+🚀 Autor
+
+Desenvolvido por Gabriel Andrade.
