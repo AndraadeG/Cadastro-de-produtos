@@ -1,0 +1,241 @@
+:root {
+    color-scheme: light;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #f1f5f9;
+    color: #0f172a;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --surface: #e2e8f0;
+    --border: rgba(15, 23, 42, 0.08);
+    --text: #111827;
+    --muted: #64748b;
+    --primary: #2563eb;
+    --primary-strong: #1d4ed8;
+    --radius: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(circle at top, rgba(37, 99, 235, 0.12), transparent 32%),
+        linear-gradient(180deg, #e2e8f0 0%, #f8fafc 55%, #f1f5f9 100%);
+    color: var(--text);
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+.app-shell {
+    min-height: 100vh;
+    padding: 32px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.topbar {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.branding {
+    display: grid;
+    gap: 12px;
+    padding: 24px;
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid var(--border);
+    box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+}
+
+.eyebrow {
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1d4ed8;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 2.8vw, 3rem);
+    line-height: 1.05;
+}
+
+.subtitle {
+    margin: 0;
+    max-width: 640px;
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.page-content {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1.35fr 0.75fr;
+}
+
+.card {
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+    padding: 28px;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-header h2 {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+}
+
+.card-header p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.product-form {
+    display: grid;
+    gap: 18px;
+}
+
+.field,
+.field-group {
+    width: 100%;
+}
+
+.field {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-size: 0.95rem;
+    color: #334155;
+    font-weight: 600;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 16px;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: var(--text);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: rgba(37, 99, 235, 0.8);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12);
+}
+
+.field-group {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.btn {
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    border-radius: 999px;
+    padding: 14px 28px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    font-weight: 700;
+    box-shadow: 0 16px 30px rgba(37, 99, 235, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 22px 36px rgba(37, 99, 235, 0.24);
+}
+
+.info-card {
+    border-left: 4px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.info-card h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.info-card p,
+.small-note {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.tips {
+    margin: 0;
+    padding-left: 20px;
+    color: #334155;
+}
+
+.tips li {
+    margin: 8px 0;
+}
+
+.footer {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.95rem;
+    padding: 14px 0;
+}
+
+@media (max-width: 900px) {
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+
+    .field-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .app-shell {
+        padding: 20px 16px 16px;
+    }
+
+    .card,
+    .branding {
+        padding: 20px;
+    }
+}
