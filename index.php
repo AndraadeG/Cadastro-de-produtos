@@ -73,6 +73,9 @@
 
                     <button type="submit" class="btn btn-primary">Salvar produto</button>
                     <div id="mensagem"></div>
+                    <a href="produtos.php">
+                        Ver produtos cadastrados
+                    </a>
                 </form>
             </section>
 
