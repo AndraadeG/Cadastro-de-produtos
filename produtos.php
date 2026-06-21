@@ -37,12 +37,14 @@ $resultado = $cone->query($sql);
                     <table style="width:100%;border-collapse:separate;border-spacing:0;">
                         <thead>
                             <tr>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">ID</th>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">Nome</th>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">Categoria</th>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">Quantidade</th>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">Preço</th>
-                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:#334155;">Ações</th>
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">ID</th>
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">Nome</th>
+
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">Categoria</th>
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">Quantidade</th>
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">Preço</th>
+                                <th style="text-align:left;padding:12px 10px;border-bottom:1px solid var(--border);color:rgba(229, 231, 235, 0.86);">Ações</th>
+
                             </tr>
                         </thead>
                         <tbody>
