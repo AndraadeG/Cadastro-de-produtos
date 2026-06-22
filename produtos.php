@@ -64,6 +64,8 @@ $resultado = $cone->query($sql);
                                             >
                                                 Editar
                                             </a>
+                                            <a href="Excluir_produto.php?id=<?= $row['id']; ?>" onclick="return confirm('Tem certeza que deseja excluir este produto?');">Excluir</a>
+
                                         </td>
                                     </tr>
                                 <?php endwhile; ?>
